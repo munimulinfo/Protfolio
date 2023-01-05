@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* hedar style starts */
+
+.hedar {
+    background: #FFF8F3;
+    background-image:url(images/header_bg.png),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+.baner-p {
+    color: #757575;
+    font-size: 18px;
+}
+.top-btn {
+    margin-left: 30px;
+    height: 64px;
+    width: 150px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+}
+.ttext-color {
+    color: #FD6E0A;
+}
+.top-h2 {
+    font-size: 45px;
+    font-weight: 800px;
+}
+.top-banner {
+    display: flex;
+}
+.banner-text {
+    height: 356px;
+    width: 585px;
+    margin-left: 180px;
+    margin-top: 185px;
+}
+.b-h1 {
+    font-size: 85px;
+    font-weight: 800px;
+    line-height: 115px;
+    margin-bottom: 20px;
+}
+.b-h2 {
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.b-btn1 {
+    width: 200px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border: none;
+    margin-right: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: aliceblue;
+    margin-top: 30px;
+}
+.b-btn2 {
+    width: 164px;
+    height: 64px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: #FD6E0A;
+    margin-top: 30px;
+}
+.nissan {
+    margin: 10px;
+}
+.baner-img {}
+/* hedar style end */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-title {
+    margin-top: 130px;
+    background-color: bisque;
+    padding: 130px 156px;
+    border-radius: 10px;
+}
+.about-p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.aboutinfo {
+    display: flex;
+    justify-content: space-around;
+}
+.info-text {
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+.info-para {
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
+.text-1 {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+.text-2 {
+    text-align: center;
+}
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.container-div {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 267px);
+    grid-column-gap: 20px;
+}
+.container-child {
+    width: 267px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.container-child img {
+    width: 20%;
+    margin-top: 26px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.con-h1 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.container-child p {
+    margin-left: 30px;
+    margin-right: 33px;
+}
+.summary {
+    margin-top: 130px;
+}
+.summary-box {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.summary-title {
+    margin-bottom: 130px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+.chids-h1 {
+    margin-bottom: 30px;
+}
+.chids-h2 {
+    margin-bottom: 10px;
+}
+.chids-p {
+    margin-boottm: 30px;
+}
+.child-s {
+    margin-bottom: 30px;
+    width: 558px;
+}
+.chids-p {
+    margin-bottom: 30px;
+}
+.button-n {
+    margin-left: 600px;
+}
+.icons-footer {
+    display: flex;
+    gap: 24px;
+}
+.input-n {
+    width: 461;
+    height: 64px;
+    border: none;
+}
+.last-Element {
+    display: flex;
+    justify-content: center;
+    background: #FFF8F3;
+    margin-top: 113px;
+}
+.Element-child {
+    display: flex;
+    gap: 117px;
+    justify-content: center;
+    margin-top: 130px;
+}
+#name {
+    margin-bottom: 24px;
+    border: none;
+    padding: 18px 0px 0px 18px;
+    border-radius: 10px;
+}
+.submit-in {
+    width: 150px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 130px;
+}
